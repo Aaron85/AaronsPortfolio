@@ -1,0 +1,129 @@
+body {
+    padding: 0px;
+    margin: auto;
+    background-color: #BF2A2A;
+}
+
+.container {
+    background-color: #DBB46C;
+}
+
+.title {
+    text-align: center;
+    color: #BF2A2A;
+    padding: 10px;
+    font-size: 1.4em;
+    font-family: 'Righteous', cursive;
+}
+
+p {
+    font-size: 1.8em;
+    padding-top: 20px;
+    text-transform: uppercase;
+    word-spacing: 6px;
+    letter-spacing: 1px;
+}
+
+img {
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* css animation */
+.overlay {
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    left: 53px;
+    right: 0;
+    height: 363px;
+    width: 273px;
+    opacity: 0;
+    transition: .8s ease;
+    background-color: rgb(102, 102, 102);
+ }
+  
+.imgContainer:hover .overlay {
+    opacity: 0.9;
+}
+
+.overlay p {
+    text-align: left;
+    font-size: 14px;
+}
+  
+.text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Antic Slab', serif;
+}
+
+/* media queries */
+@media only screen and (max-width: 1195px) {
+    .overlay {
+        position: absolute;
+        top: 15px;
+        bottom: 0;
+        left: 25px;
+        right: 0;
+        height: 363px;
+        width: 273px;
+        opacity: 0;
+        transition: .8s ease;
+        background-color: rgb(102, 102, 102);
+     }
+}
+@media only screen and (max-width: 990px) {
+    .overlay {
+        position: absolute;
+        top: 15px;
+        bottom: 0;
+        left: 43px;
+        right: 0;
+        height: 363px;
+        width: 273px;
+        opacity: 0;
+        transition: .8s ease;
+        background-color: rgb(102, 102, 102);
+     }
+}
+@media only screen and (max-width: 764px) {
+    .overlay {
+        position: absolute;
+        top: 15px;
+        bottom: 0;
+        left: 133px;
+        right: 0;
+        height: 363px;
+        width: 273px;
+        opacity: 0;
+        transition: .8s ease;
+        background-color: rgb(102, 102, 102);
+     }
+}
+@media only screen and (max-width: 465px) {
+    .overlay {
+        position: absolute;
+        top: 15px;
+        bottom: 0;
+        left: 82px;
+        right: 0;
+        height: 363px;
+        width: 273px;
+        opacity: 0;
+        transition: .8s ease;
+        background-color: rgb(102, 102, 102);
+     }
+}
