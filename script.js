@@ -1,14 +1,12 @@
+window.onscroll = function() {myFunction()};
 
-// sticky header effect - add id myHeader to Element
-// window.onscroll = function() {myFunction()};
+let header = document.querySelector(".menu");
+let sticky = header.offsetTop;
 
-// var header = document.getElementById("myHeader");
-// var sticky = header.offsetTop;
-
-// function myFunction() {
-//   if (window.pageYOffset >= sticky) {
-//     header.classList.add("sticky");
-//   } else {
-//     header.classList.remove("sticky");
-//   }
-// }
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
